@@ -1,0 +1,103 @@
+.container {
+    height: 100%;
+    width: 100%;
+    margin-top: 7.5rem;
+    margin-left: 0px;
+    padding: 30px;
+}
+
+.wrapper {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:0.5rem;
+}
+  
+.titles>h1 {
+    color: #777;
+    font-size: 28px;
+ 
+}
+
+.featuredProperties_featuredProperty__q8IRN{
+    width: 800px;
+}
+
+.featuredProperties_FeaturedProperties__aWEEa{
+    margin-left: 70px;
+}
+
+.FeaturedProperties{
+    display: flex;
+    gap:30px;
+    margin-left: 110px;
+
+}
+.featuredProperties{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.featuredProperties > .featuredProperty > .imgContainer{
+    display: inline-block;
+    height: 250px;
+    width: 100px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    cursor:pointer;
+
+}
+
+.featuredProperties > .featuredProperty > .imgContainer > img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    transition: 150ms all;
+}
+
+.featuredProperties > .featuredProperty > .imgContainer > img:hover{
+    scale: 1.05;
+}
+
+.featuredProperties .owner{
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.featuredProperties > .details{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 0.5rem;
+}
+
+.featuredProperties > .details > .priceAndOwner{
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceAndOwner > .price{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.moreDetails{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 0.5rem;
+}
